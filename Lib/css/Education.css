@@ -7,7 +7,14 @@ body {
 .body_section {
   padding: 3% 5% 1%;
 }
-
+.card-img-top{
+  filter: grayscale(0);
+  cursor: pointer;
+  transition: filter 1s;
+}
+.card-img-top:hover{
+  filter: grayscale(1);
+}
 a {
   text-decoration: none;
 }
